@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>CALCULATOR</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script2.js"></script>
+    </head>
+    <body>
+        <div class="cal-container">
+        <div id="cal-output">
+            <div id="output">
+                Lets calculate
+            </div>
+        </div>
+            <div class="buttons">
+                <div class = "cal-numbers">
+                    <button id="no" onclick="getinput('1')">1</button>
+                    <button id="no" onclick="getinput('2')">2</button>
+                    <button id="no" onclick="getinput('3')">3</button>
+                    <button id="no" onclick="getinput('4')">4</button>
+                    <button id="no" onclick="getinput('5')">5</button>
+                    <button id="no" onclick="getinput('6')">6</button>
+                    <button id="no" onclick="getinput('7')">7</button>
+                    <button id="no" onclick="getinput('8')">8</button>
+                    <button id="no" onclick="getinput('9')">9</button>
+                    <button id="no" onclick="getinput('0')">0</button>
+                    <button id="no" onclick="getinput('.')">.</button>
+                    <button class="cal-result" id="result" onclick="getinput('=')">=</button>
+                 </div>
+                 <div class ="cal-signs">
+                    <button id="sign_+" onclick="getinput('+')">+</button>
+                    <button id="sign_-" onclick="getinput('-')">-</button>
+                    <button id="sign_%" onclick="getinput('/')">/</button>
+                    <button id="sign_x" onclick="getinput('x')">x</button>
+                    <button id="sign_ce"onclick="getinput('CE')">CE</button>
+                    <button id="sign_delete"onclick="getinput('Delete')">Delete</button>
+                </div>
+                
+            </div>
+        </div>
+    </body>
+</html>
