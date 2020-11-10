@@ -2,18 +2,28 @@
     padding:0;
     margin:0;
 }
-body{
-    background-color: black;
+
+.main{
+    /* background-image:url("https://static.toiimg.com/photo/72975551.cms");
+    background-size:100% ;
+    background-repeat: no-repeat; */
+    background: linear-gradient(rgb(0, 0, 0),rgb(0, 19, 128));
+    min-height:750px;
+    height:750px;;
 }
+
 .cal-container{
+    
     position: absolute;
-    margin:10% 35% 0 ;
+    margin:5% 33% 0 ;
     height:600px;
     width:500px;
-    background-image: linear-gradient(rgb(235, 39, 39) ,rgb(0, 17, 92) );
     border-radius: 20px;
+    box-shadow: 10px 10px 60px black;
+    background-color:rgb(221, 199, 151)
+    
    
-
+    
 }
 #cal-output{
      position: relative;
@@ -26,43 +36,42 @@ body{
      border-radius: 20px;
 }
 .cal-numbers button{
-   
-    height:40px;
-    width:40px;
-    border-style: double;
-    border-radius:10px;
-    border-color:black;
-    border-width:1px;
+    border-style: none;
+    height:55px;
+    width:55px;
+    border-radius:100px;
     background-color: white;
     font-size: 20px;
+    /* box-shadow: 10px 10px 60px black; */
 
 }
 .cal-numbers{
 
     height:370px;
-    width:230px;
+    width:250px;
     margin:20px;
-   
     display:flex;
     flex-wrap: wrap;
     justify-content:space-around ;
+    /* box-shadow: 10px 10px 30px black; */
    
 }
 .cal-numbers button.cal-result{
 
-    height:40px;
-    width:80px;
+    height:60px;
+    width:100px;
 
 }
 .cal-signs button{
 
-    height:60px;
-    width:90px;
+    
+    height:70px;
+    width:70px;
     font-size: 20px;
-    background-color: white; 
-    border-radius:10px;
-    border-color:black;
-    border-width:1px;
+    background-color: rgb(233, 187, 62); 
+    border-radius:100px;
+    border-style: none;
+    
 }
 #output{
 
@@ -79,17 +88,16 @@ body{
 }
 .cal-signs{
  
-     margin:50px;
+     margin:10px;
      height:200px;
      width:300px;
      display: flex;
      flex-wrap: wrap;
-     justify-content: space-evenly;
+     justify-content: space-around;
      
-    
-
+   
 }
 .buttons{
-    
+ 
     display:flex;
 }
